@@ -1,13 +1,14 @@
-#include<iostream>
-#include<string>
-using namespace std;
+#include <iostream>
+#include <string>
 
-int main(){
+int main()
+{
 
-    string colors[5] = {"Amarillo","Verde", "Rojo", "Violeta", "Azul"};
+    std::string colors[5] = {"Amarillo", "Verde", "Rojo", "Violeta", "Azul"};
 
-    for(int i = 0; i <= sizeof(colors) / sizeof(int); i++){
-        cout << colors[i] << "\n";
+    for (int i = 0; i <= sizeof(colors) / sizeof(std::string); i++)
+    {
+        std::cout << colors[i] << "\n";
     }
     return 0;
 }
